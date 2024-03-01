@@ -46,17 +46,17 @@ let second = 0;
 let millisecond = 0;
 setInterval(() => {
   millisecond++;
-  if (millisecond === 99) {
+  if (millisecond == 99) {
     millisecond = 0;
     second++;
-  } else if (second === 60) {
+  } else if (second == 60) {
     second = 0;
     minutes++;
-  } else if (minutes === 60) {
+  } else if (minutes == 60) {
     minutes = 0;
     hours++;
   }
-}, 10);
+}, 1000);
 
 
 

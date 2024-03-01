@@ -8,11 +8,8 @@ export default function App() {
       {/* <StatusBar style="auto" /> */}
       <View style={styles.container1}>
         <Text>StopWatch App Created By Jazim</Text>
-      </View>
-      <View style={styles.container2}>
         <Text>{`${hours}:${minutes}:${second}:${millisecond}`}</Text>
       </View>
-
     </SafeAreaView>
   );
 }
@@ -25,14 +22,6 @@ const styles = StyleSheet.create({
   },
   container1: {
     flex: 2,
-    width: 95 + "%",
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderWidth: 2,
-    borderColor: "red",
-  },
-  container2: {
-    flex: 1,
     width: 95 + "%",
     alignItems: 'center',
     justifyContent: 'center',
